@@ -1,0 +1,174 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.botao-primario {
+    background: #05bc30;
+    color: white;
+    text-transform: uppercase;
+    padding: 15px 60px;
+    border: none;
+    border-radius: 30px;
+    letter-spacing: 1px;
+    font-weight: bold;
+    transition: all 300ms ease;
+}
+
+.botao-primario:hover {
+    background: #7feda3;
+    cursor: pointer;
+}
+
+.logo {
+    height: 40px;
+    width: auto;
+}
+
+#barraDeNavegacao {
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    }
+
+.barraDeNavegacao-container {
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+.barraDeNavegacao-container ul {
+    display: flex;
+    list-style: none;
+    font-weight: bold;
+}
+
+.barraDeNavegacao-container ul li {
+    padding: 0 20px;
+    transition: all 300ms ease;
+}
+
+.barraDeNavegacao-container ul li:hover {
+    color: 8dd1a0;
+    cursor: pointer;
+}
+
+.barraDeNavegacao-container ul li:nth-child(3) {
+    border-right: 1px solid white;
+}
+
+#show {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url("img/microfone.jpg") center center/cover;
+    background-color: rgba(0, 0, 0, 0.4);
+    background-blend-mode: color;
+}
+
+.show-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.show-container h2 {
+    font-size: 150px;
+    color: white;
+}
+
+.show-container p {
+    margin: 15px 0;
+    font-size: 30px;
+    color: white;
+}
+
+#rodape {
+    background: black;
+    color: white;
+    padding: 80px;
+}
+
+.rodape-content {
+    display: flex;
+    width: 60%;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.rodape-menu {
+    margin: 0 40px;
+    list-style: none;
+}
+
+.rodape-menu-item {
+        margin: 25px 0;
+        transition: all 300ms ease;
+}
+
+.rodape-menu-item:hover {
+    color: #05bc30;
+    cursor: pointer;
+}
+
+.rodape-menu p {
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #919496;
+    font-size: 18px;
+}
+
+.redesSociais {
+    display: flex;
+}
+
+.redesSociais i {
+    margin: 0 20px;
+    font-size: 25px;
+    transition: all 300ms ease;
+}
+
+.redesSociais i:hover {
+    color: #8dd1a0;
+    cursor: pointer;
+}
+
+.rodape-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    width: 60%;
+    margin: auto;
+    font-weight: bold;
+    color: #919496;
+    font: 0.75rem;
+    padding-top: 50px;
+}
+
+.rodape-info-itens {
+    display: flex;
+    list-style: none;
+}
+
+.rodape-info-item {
+    margin: 0 10px;
+    transition: all 300ms ease;
+}
+
+.rodape-info-item:hover {
+    color: #8dd1a0;
+    cursor: pointer;
+}
+
